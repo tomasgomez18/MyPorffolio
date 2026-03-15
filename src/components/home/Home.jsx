@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import fotoPortfolio from "../../assets/fotoPortfolio.jpeg";
 import './Home.css';
 
-function Home() { 
+function Home() {
   const form = useRef();
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
@@ -139,9 +139,9 @@ function Home() {
                   <h3 className="text-white mb-4 fs-5">Backend</h3>
                   <ul className="list-unstyled text-secondary">
                     <li className="mb-3">Node.js / Express</li>
-                      <li className="mb-3">MongoDB / NoSQL</li>
-                      <li className="mb-3">PostgreSQL / SQL</li>
-                      <li className="mb-3">REST APIs</li>
+                    <li className="mb-3">MongoDB / NoSQL</li>
+                    <li className="mb-3">PostgreSQL / SQL</li>
+                    <li className="mb-3">REST APIs</li>
                   </ul>
                 </div>
               </div>
@@ -150,9 +150,9 @@ function Home() {
                   <h3 className="text-white mb-4 fs-5">Herramientas</h3>
                   <ul className="list-unstyled text-secondary">
                     <li className="mb-3">Git / GitHub</li>
-                      <li className="mb-3">Vite / NPM</li>
-                      <li className="mb-3">Docker</li>
-                      <li className="mb-3">Postman</li>
+                    <li className="mb-3">Vite / NPM</li>
+                    <li className="mb-3">Docker</li>
+                    <li className="mb-3">Postman</li>
                   </ul>
                 </div>
               </div>
