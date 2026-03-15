@@ -5,8 +5,6 @@ function Home() {
   return (
     <div className="app-layout">
       <main className="main-content">
-        
-        {/* SECCIÓN INICIO */}
         <section id="home" className="hero-section min-vh-100 d-flex flex-column justify-content-center align-items-center text-center pt-5">
           <div className="hero-content container">
             <h1 className="hero-title display-3 fw-bolder text-white mb-2">
@@ -24,8 +22,6 @@ function Home() {
             <span className="small text-uppercase" style={{ letterSpacing: '2px' }}>Desplázate para explorar</span>
           </div>
         </section>
-
-        {/* SECCIÓN SOBRE MÍ */}
         <section id="about" className="about-section py-5">
           <div className="section-container container my-5">
             <div className="text-center mb-5">
@@ -41,8 +37,6 @@ function Home() {
             </div>
           </div>
         </section>
-
-        {/* SECCIÓN HABILIDADES */}
         <section id="skills" className="skills-section py-5">
           <div className="section-container container my-5">
             <div className="text-center mb-5">
@@ -87,15 +81,12 @@ function Home() {
             </div>
           </div>
         </section>
-
-        {/* SECCIÓN PROYECTOS */}
         <section id="projects" className="projects-section py-5">
           <div className="section-container container my-5">
             <div className="text-center mb-5">
               <h2 className="section-title display-6 fw-bold text-white mb-3">Proyectos</h2>
               <hr className="w-25 mx-auto text-white opacity-100" />
             </div>
-            
             <div className="projects-grid row justify-content-center g-4 text-center">
               <div className="col-12 col-md-6">
                 <div className="project-card p-4 border border-secondary border-opacity-25 rounded-4 h-100" style={{ backgroundColor: 'rgba(255,255,255,0.03)' }}>
@@ -121,8 +112,6 @@ function Home() {
             </div>
           </div>
         </section>
-
-        {/* SECCIÓN CONTACTO */}
         <section id="contact" className="contact-section py-5 mb-5">
           <div className="section-container container my-5">
             <div className="text-center mb-5">
@@ -147,7 +136,6 @@ function Home() {
                     </button>
                   </div>
                 </form>
-                
                 <div className="contact-info text-center mt-5">
                   <p className="text-secondary">
                     Email: <a href="mailto:tomasgomezzi36@gmail.com" className="text-white text-decoration-none fw-semibold">tomasgomezzi36@gmail.com</a>
