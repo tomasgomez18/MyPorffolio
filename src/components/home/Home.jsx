@@ -2,7 +2,7 @@ import React from 'react';
 import fotoPortfolio from "../../assets/fotoPortfolio.jpeg";
 import './Home.css';
 
-function Home() {
+function Home() { 
   return (
     <div className="app-layout">
       <main className="main-content">
