@@ -33,6 +33,7 @@ section {
   text-align: center;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -69,12 +70,6 @@ section {
 }
 
 /* Skills Grid */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
 .skill-card {
   background: #1e293b;
   padding: 2rem;
@@ -83,12 +78,6 @@ section {
 }
 
 /* Proyectos */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
 .project-card {
   background: #1e293b;
   padding: 1.5rem;
@@ -144,4 +133,25 @@ section {
   .hero-title {
     font-size: 2.5rem;
   }
+}
+.skill-card ul {
+  list-style: none; /* Quitamos los puntos */
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.skill-card li {
+  color: #94a3b8;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  text-align: center; /* Centramos el texto de cada habilidad */
+}
+
+.skill-card h3 {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(102, 126, 234, 0.3);
+  padding-bottom: 0.5rem;
 }

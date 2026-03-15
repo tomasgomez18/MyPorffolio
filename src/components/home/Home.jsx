@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Home.css';
 
 function Home() {
@@ -35,12 +35,7 @@ function Home() {
             <div className="about-content row justify-content-center">
               <div className="about-text col-12 col-md-8 text-center text-secondary">
                 <p className="mb-4">
-                  Soy un desarrollador apasionado por crear soluciones web innovadoras.
-                  Como estudiante de programación, me enfoco en transformar ideas en productos digitales de calidad.
-                </p>
-                <p>
-                  Mi objetivo es escribir código mantenible y siempre estar a la vanguardia 
-                  de las nuevas tecnologías.
+                 "Desarrollador Full Stack (MERN) y estudiante de programación en la UTN Tucumán. Con un sólido trasfondo en Ingeniería, me especializo en crear aplicaciones web modernas, robustas y centradas en el usuario. Disciplinado por naturaleza, ya sea en un entorno de desarrollo, en el gimnasio o jugando al pádel, siempre busco la mejora continua y el siguiente desafío técnico.
                 </p>
               </div>
             </div>
@@ -62,7 +57,8 @@ function Home() {
                   <ul className="list-unstyled text-secondary">
                     <li className="mb-3">React / JavaScript</li>
                     <li className="mb-3">HTML5 / CSS3</li>
-                    <li className="mb-3">Tailwind CSS</li>
+                    <li className="mb-3">Bootstrap / React Bootstrap</li>
+                    <li className="mb-3">Manejo de Estado / Hooks</li>
                   </ul>
                 </div>
               </div>
@@ -71,8 +67,9 @@ function Home() {
                   <h3 className="text-white mb-4 fs-5">Backend</h3>
                   <ul className="list-unstyled text-secondary">
                     <li className="mb-3">Node.js / Express</li>
-                    <li className="mb-3">PostgreSQL</li>
-                    <li className="mb-3">REST APIs</li>
+                      <li className="mb-3">MongoDB / NoSQL</li>
+                      <li className="mb-3">PostgreSQL / SQL</li>
+                      <li className="mb-3">REST APIs</li>
                   </ul>
                 </div>
               </div>
@@ -81,8 +78,9 @@ function Home() {
                   <h3 className="text-white mb-4 fs-5">Herramientas</h3>
                   <ul className="list-unstyled text-secondary">
                     <li className="mb-3">Git / GitHub</li>
-                    <li className="mb-3">Vite</li>
-                    <li className="mb-3">Docker</li>
+                      <li className="mb-3">Vite / NPM</li>
+                      <li className="mb-3">Docker</li>
+                      <li className="mb-3">Postman</li>
                   </ul>
                 </div>
               </div>
