@@ -1,4 +1,5 @@
 import React from 'react';
+import fotoPortfolio from "../../assets/fotoPortfolio.jpeg";
 import './Home.css';
 
 function Home() {
@@ -7,8 +8,16 @@ function Home() {
       <main className="main-content">
         <section id="home" className="hero-section min-vh-100 d-flex flex-column justify-content-center align-items-center text-center pt-5">
           <div className="hero-content container">
+            <div className="mb-4">
+              <img 
+                src={fotoPortfolio} 
+                alt="Perfil" 
+                className="rounded-circle shadow-lg border border-3 border-secondary border-opacity-50"
+                style={{ width: '180px', height: '180px', objectFit: 'cover' }}
+              />
+            </div>
             <h1 className="hero-title display-3 fw-bolder text-white mb-2">
-              Tomas Gomez<span style={{color: '#ff0000'}}>.</span>
+              Tomas Gomez<span style={{color: '#ff0000'}}>.</span><hr className="w-25 mx-auto text-white opacity-100" /> 
             </h1>
             <p className="hero-subtitle fs-5 text-secondary mb-4">Desarrollador Full Stack</p>
             <p className="hero-description mx-auto w-75 mb-5 text-light">
@@ -19,7 +28,6 @@ function Home() {
             </a>
           </div>
           <div className="scroll-indicator mt-5 text-secondary">
-            <span className="small text-uppercase" style={{ letterSpacing: '2px' }}>Desplázate para explorar</span>
           </div>
         </section>
         <section id="about" className="about-section py-5">
