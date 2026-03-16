@@ -74,10 +74,10 @@ function Home() {
               <div className="col-12 col-lg-6 mb-4 mb-lg-0 text-start">
                 <h3 className="text-white fs-4 mb-3">Perfil Analítico & Desarrollador Full Stack</h3>
                 <p className="text-secondary mb-4" style={{ lineHeight: '1.8' }}>
-                  Soy estudiante de programación en la <span className="text-white fw-bold">UTN Tucumán</span> con un fuerte trasfondo en <span className="text-white">Ingeniería</span>. Mi formación me ha brindado una base sólida en <span className="text-danger fw-bold">lógica y matemáticas</span>, herramientas que aplico día a día para resolver problemas complejos a través del código.
+                  Soy estudiante de programación universitaria en la <span className="text-white fw-bold">Univesidad Tecnologica Nacional Tucumán</span> con un fuerte trasfondo en <span className="text-white">Ingeniería</span>. Mi formación me ha brindado una base sólida en <span className="text-danger fw-bold">lógica y matemáticas</span>, herramientas que aplico día a día para resolver problemas complejos a través del código.
                 </p>
                 <p className="text-secondary mb-4" style={{ lineHeight: '1.8' }}>
-                  Me especializo en el stack <span className="text-white fw-bold">MERN</span>, creando aplicaciones modernas y escalables. Soy una persona <span className="text-white fw-bold">altamente disciplinada</span>; esa misma energía que aplico en el gimnasio o en la cancha de pádel es la que llevo a mis proyectos: constancia, mejora continua y atención al detalle.
+                  Me especializo en el stack <span className="text-white fw-bold">MERN</span>, creando aplicaciones modernas y escalables. Soy una persona <span className="text-white fw-bold">altamente disciplinada</span>
                 </p>
               </div>
               <div className="col-12 col-lg-5 offset-lg-1">
